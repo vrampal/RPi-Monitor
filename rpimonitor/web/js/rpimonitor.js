@@ -208,7 +208,6 @@ function AddTopmenu(){
         '<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>' +
         '<ul class="dropdown-menu" role="menu">' +
         '<li class="dropdown-header"> <b>RPi-Monitor</b></li>'+
-        '<li><a href="http://rpi-experiences.blogspot.fr/p/rpi-monitor.html" data-toggle="modal">Help</a></li>'+
         '<li><a href="#License" data-toggle="modal">License</a></li>'+
         '<li><a href="#About" data-toggle="modal">About</a></li>'+
         '</ul>' +
