@@ -34,10 +34,6 @@ $(function () {
   /* Show friends */
   ShowFriends();
 
-  /* Add qrcode shortcut*/
-  setupqr();
-  doqr(document.URL);
-
   /* Get static values once */
   ConstructPage();
 });
