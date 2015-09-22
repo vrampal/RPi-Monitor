@@ -55,20 +55,6 @@ function ShowFriends(){
   } 
 }
 
-function AddFooter(){
-$('#footer').html(
-  '<div class="navbar-inverse navbar-fixed-bottom text-center">'+
-    '<small>'+
-      '<a href="http://rpi-experiences.blogspot.fr/">RPi-Experiences</a>'+
-      '<font color="silver"> | </font>'+
-      '<a href="https://github.com/XavierBerger/RPi-Monitor">GitHub</a>'+
-      '<font color="silver"> | </font>'+
-      '<a href="http://www.raspberrypi.org/">Raspberry Pi Foundation</a>'+
-    '</small>'+
-  '</div>'
-);
-}
-
 function AddDialogs(){
   var dialogs="";
 
@@ -351,7 +337,6 @@ $(function () {
   getVersion();
   AddTopmenu();
   AddDialogs();
-  AddFooter();
   UpdateMenu();
  
   //Initialize dialog values
